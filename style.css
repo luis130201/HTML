@@ -1,0 +1,138 @@
+body {
+
+    margin: 0 auto;
+    width: 70%; 
+}
+
+
+header{
+    color: rgb(153, 26, 26);
+    background-color: rgb(241, 222, 211);
+    height: 180px;
+    text-align: center;
+    padding-top: 80px;
+   
+}
+
+
+.link{
+
+display: flex;
+justify-content: space-between;
+background-color: rgb(245, 245, 245); 
+
+}
+
+
+.centro{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+    
+}
+
+.direita {
+    justify-content: flex-end!important;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+nav a{
+    
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    padding: 10px 10px;
+}
+nav a:hover{
+
+   
+    color: red;
+}
+
+.section {
+    
+    
+    padding: 50px;
+    
+}
+
+.t1{
+
+    justify-content: flex-start;
+}
+
+.section2 {
+
+   
+    
+    background-color: gray;
+    padding-bottom: 2%;
+    border-radius: 10px 10px;
+    padding: 50px;
+}
+
+img{
+    width: 30px;
+    
+}
+
+.sec3 {
+
+   
+    
+    
+    padding-bottom: 2%;
+    border-radius: 10px 10px;
+    padding: 50px;
+    padding-bottom: 2%;
+}
+
+.sec4 {
+
+   
+    
+    background-color: gray;
+    padding-bottom: 2%;
+    border-radius: 10px 10px;
+    padding: 50px;
+
+}
+
+.sec5 {
+
+   
+    
+    
+    padding-bottom: 2%;
+    border-radius: 10px 10px;
+    padding: 50px;
+    padding-bottom: 2%;
+}
+
+.fotos{
+
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    margin: 10px;
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+    
+}
